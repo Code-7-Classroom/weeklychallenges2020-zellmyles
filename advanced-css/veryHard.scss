@@ -1,0 +1,217 @@
+$bold : bold;
+$pageMargin : 20px;
+
+body, html {
+    margin:0;
+}
+
+.header {
+    text-align:center;
+    font-size: 80px;
+}
+
+.page__container {
+    margin:5px;
+}
+
+.headline {
+    text-align: center;
+    font-size: 100px;
+    margin: 20px;
+
+    &__.headline__text--bold {
+        margin: 10px;
+        margin-bottom:50px;
+        font-weight: $bold;
+    }
+}
+
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 35% 20% 40%;
+    //font-size: 40px;
+    margin: $pageMargin;
+
+    &__.grid-item2__paragraph ::first-line {
+        font-weight: $bold;
+    }
+
+    &__.grid-item2__paragraph ::first-line {
+    font-weight: $bold;
+    }
+
+    &__.grid-item2__paragraph {
+    margin: 0;
+    font-size: 38px;
+    }
+
+
+    &__.grid-item2__paragraph2 {
+    margin-top: 10px;
+    font-size: 38px;
+    }
+
+
+    &__.grid-item4 {
+    text-align:center;
+    font-size:40px;
+    margin-bottom:0;
+    margin-left: 50px;
+    }
+
+    &__.grid-item4__author {
+    font-size:20px;
+    }
+
+    &__.grid-item4__arkhamTitle {
+        margin:5px;
+        font-weight: $bold;
+    }
+
+    &__.arkham__image {
+        height:261px;
+        width: 100%;
+    }
+
+    &__.grid-item4__article {
+        font-size:30px;
+    }
+
+    &__.grid-item__paragraph3 {
+        margin: 0;
+    }
+
+    &__.grid-item__paragraph4 {
+        margin:0;
+    }
+    
+
+}
+
+
+
+
+.grid-container2 {
+    margin: $pageMargin;
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+
+    &__.joker {
+    height:200px;
+    width:347px;
+    margin-top:30px;
+    }
+
+    &__.grid-item__Joker {
+    display: flex;
+    align-items: stretch;
+    }
+
+    &__.grid-item__paragraph {
+    font-size: 20px;
+    }
+
+    &__.grid-itemTitle--red {
+    color: red;
+    font-size:30px;
+    font-weight: $bold;
+    }
+
+    &__.grid-item {
+    text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*.headline__text--bold {
+    margin: 10px;
+    margin-bottom:50px;
+    font-weight: $bold;
+}*/
+
+
+/*.grid-item2__paragraph ::first-line {
+    font-weight: $bold;
+}*/
+
+/*.grid-item2__paragraph {
+    margin: 0;
+    font-size: 38px;
+}*/
+
+/*.grid-item2__paragraph2 {
+  margin-top: 10px;
+  font-size: 38px;
+}*/
+
+/*.grid-item4 {
+    text-align:center;
+    font-size:40px;
+    margin-bottom:0;
+    margin-left: 50px;
+}*/
+
+/*.grid-item4__author {
+    font-size:20px;
+}*/
+
+/*.grid-item4__arkhamTitle {
+    margin:5px;
+    font-weight: $bold;
+}*/
+
+/*.arkham__image {
+    height:261px;
+    width: 100%;
+}*/
+
+/*.grid-item4__article {
+    font-size:30px;
+}*/
+/*.grid-item__paragraph3 {
+    margin: 0;
+}*/
+
+/*.grid-item__paragraph4 {
+    margin:0;
+}*/
+
+
+
+/*
+.joker {
+    height:200px;
+    width:347px;
+    margin-top:30px;
+}
+
+.grid-item__Joker {
+    display: flex;
+    align-items: stretch;
+}
+
+.grid-item__paragraph {
+    font-size: 20px;
+}
+
+.grid-item__title--bold {
+    font-size:30px;
+    font-weight: $bold
+}
+
+.grid-item {
+    text-align: center;
+}
+*/
+

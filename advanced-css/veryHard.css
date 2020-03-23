@@ -1,0 +1,189 @@
+body, html {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  font-size: 80px;
+}
+
+.page__container {
+  margin: 5px;
+}
+
+.headline {
+  text-align: center;
+  font-size: 100px;
+  margin: 20px;
+}
+
+.headline__.headline__text--bold {
+  margin: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% 20% 40%;
+      grid-template-columns: 35% 20% 40%;
+  margin: 20px;
+}
+
+.grid-container__.grid-item2__paragraph ::first-line {
+  font-weight: bold;
+}
+
+.grid-container__.grid-item2__paragraph ::first-line {
+  font-weight: bold;
+}
+
+.grid-container__.grid-item2__paragraph {
+  margin: 0;
+  font-size: 38px;
+}
+
+.grid-container__.grid-item2__paragraph2 {
+  margin-top: 10px;
+  font-size: 38px;
+}
+
+.grid-container__.grid-item4 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+
+.grid-container__.grid-item4__author {
+  font-size: 20px;
+}
+
+.grid-container__.grid-item4__arkhamTitle {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.grid-container__.arkham__image {
+  height: 261px;
+  width: 100%;
+}
+
+.grid-container__.grid-item4__article {
+  font-size: 30px;
+}
+
+.grid-container__.grid-item__paragraph3 {
+  margin: 0;
+}
+
+.grid-container__.grid-item__paragraph4 {
+  margin: 0;
+}
+
+.grid-container2 {
+  margin: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+}
+
+.grid-container2__.joker {
+  height: 200px;
+  width: 347px;
+  margin-top: 30px;
+}
+
+.grid-container2__.grid-item__Joker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.grid-container2__.grid-item__paragraph {
+  font-size: 20px;
+}
+
+.grid-container2__.grid-itemTitle--red {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.grid-container2__.grid-item {
+  text-align: center;
+}
+
+/*.headline__text--bold {
+    margin: 10px;
+    margin-bottom:50px;
+    font-weight: $bold;
+}*/
+/*.grid-item2__paragraph ::first-line {
+    font-weight: $bold;
+}*/
+/*.grid-item2__paragraph {
+    margin: 0;
+    font-size: 38px;
+}*/
+/*.grid-item2__paragraph2 {
+  margin-top: 10px;
+  font-size: 38px;
+}*/
+/*.grid-item4 {
+    text-align:center;
+    font-size:40px;
+    margin-bottom:0;
+    margin-left: 50px;
+}*/
+/*.grid-item4__author {
+    font-size:20px;
+}*/
+/*.grid-item4__arkhamTitle {
+    margin:5px;
+    font-weight: $bold;
+}*/
+/*.arkham__image {
+    height:261px;
+    width: 100%;
+}*/
+/*.grid-item4__article {
+    font-size:30px;
+}*/
+/*.grid-item__paragraph3 {
+    margin: 0;
+}*/
+/*.grid-item__paragraph4 {
+    margin:0;
+}*/
+/*
+.joker {
+    height:200px;
+    width:347px;
+    margin-top:30px;
+}
+
+.grid-item__Joker {
+    display: flex;
+    align-items: stretch;
+}
+
+.grid-item__paragraph {
+    font-size: 20px;
+}
+
+.grid-item__title--bold {
+    font-size:30px;
+    font-weight: $bold
+}
+
+.grid-item {
+    text-align: center;
+}
+*/
+/*# sourceMappingURL=veryHard.css.map */

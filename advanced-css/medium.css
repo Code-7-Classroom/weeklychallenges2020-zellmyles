@@ -1,0 +1,114 @@
+.grid-container {
+    margin:20px;
+    margin-left: 110px;
+    height: 884px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    border: 30px;
+    border-style: ridge;
+    border-color: rgb(230, 220, 208);
+}
+
+.grid__item1 {
+    background: red;
+    text-align:center;
+}
+
+.grid__item2 {
+    background:blue;
+    text-align:center;
+}
+
+.grid__item3 {
+    background: green;
+    text-align:center;
+}
+
+.grid__item4 {
+    background: orange;
+    text-align:center;
+}
+
+.grid__item5 {
+    background:black;
+    text-align:center;
+}
+
+.grid__item6 {
+    background:teal;
+    text-align:center;
+}
+
+.grid__item7 {
+    background:rgb(218, 167, 175);
+    text-align:center;
+}
+
+.grid__item8 {
+    background:purple;
+   text-align:center;
+}
+
+.bm227 {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.xm {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.sm {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.mk {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.nm {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.static {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.icon {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.bat {
+    height: 200px;
+    width: 150px;
+    margin: 75px;
+    margin-bottom: 0;
+}
+
+.description {
+    margin-left:5px;
+    margin-right:5px;
+    color:white;
+}

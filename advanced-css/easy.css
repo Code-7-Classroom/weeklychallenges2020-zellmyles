@@ -1,0 +1,27 @@
+
+table {
+    background-color: white;
+}
+
+.flag {
+    height: 675px;
+    width: 98vw;
+    border: 1px solid blue;
+}
+
+.flag__stripe {
+    height: 20px;
+    width:100%;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.stars {
+    height:337px;
+    width:470px;
+    position: absolute;
+    background-position: cover;
+}
+
+
+

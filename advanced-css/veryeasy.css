@@ -1,0 +1,19 @@
+.checkerboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    border: solid;
+    border-color: black;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.square-2 {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
