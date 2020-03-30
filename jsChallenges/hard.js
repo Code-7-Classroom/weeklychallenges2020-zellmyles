@@ -1,7 +1,6 @@
-var num1 = parseInt(prompt('Enter a number'))
-var num2 = parseInt(prompt('Enter another number'))
-var option = prompt('Pick one(+,-,*,/)')
-
+var num1 = 10
+var num2 = 5
+option = 
 
 
 function add(num1, num2){
