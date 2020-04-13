@@ -1,6 +1,6 @@
-var i = 0
+var i = 0                 // Loop through images
 var images = []
-var time = 3000
+var time = 3000           // Time between image switch
 
 // Image list
 images[0] = 'img/swank4.jpg'
@@ -17,7 +17,7 @@ function changeImg(){
     }   else {
         i = 0
     }
-     setTimeout("changeImg()", time)
+     setTimeout("changeImg()", time)    //Runs function every 3 seconds
 }
 
-window.onload = changeImg
+window.onload = changeImg          //Runs initially when page loads
