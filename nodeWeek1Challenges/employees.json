@@ -1,0 +1,64 @@
+{
+    "employees":[
+        {
+            "name":"Cloud Strife",
+            "id":1,
+            "salary":50000000,
+            "deptName":"Final Fantasy"
+        },
+        {
+            "name":"Sora",
+            "id":2,
+            "salary":60000000,
+            "deptName":"Kingdom Hearts"
+        },
+        {
+            "name":"Zoro",
+            "id":3,
+            "salary":70000000,
+            "deptName":"One piece"
+        },
+        {
+            "name":"Yusuke",
+            "id":4,
+            "salary":80000000,
+            "deptName":"Yu Yu Hakusho"
+        },
+        {
+            "name":"Bruce Wayne",
+            "id":5,
+            "salary":100000000,
+            "deptName":"Vigilante"
+        },
+        {
+            "name":"Marc Spector",
+            "id":6,
+            "salary":100000000,
+            "deptName":"Vigilante"
+        },
+        {
+            "name":"Goku",
+            "id":7,
+            "salary":110000000,
+            "deptName":"Dragon Ball"
+        },
+        {
+            "name":"Vegeta",
+            "id":8,
+            "salary":120000000,
+            "deptName":"Dragon Ball"
+        },
+        {
+            "name":"Yuji Itadori",
+            "id":9,
+            "salary":130000000,
+            "deptName":"Jujutsu Kaisen"
+        },
+        {
+            "name":"Ichigo Kurosaki",
+            "id":10,
+            "salary":140000000,
+            "deptName":"Bleach"
+        }
+    ]
+}
