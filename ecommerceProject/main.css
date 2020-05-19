@@ -245,7 +245,6 @@ body, html {
       grid-template-columns: 1fr 1fr;
   -webkit-column-gap: 5px;
           column-gap: 5px;
-  /* grid-row: 1fr 1fr; */
   row-gap: 40px;
 }
 
@@ -366,7 +365,7 @@ body, html {
         grid-template-columns: 1fr 1fr 1fr;
     -webkit-column-gap: 20px;
             column-gap: 20px;
-    /* grid-row: 1fr 1fr; */
+    grid-row: 1fr 1fr;
     row-gap: 40px;
   }
   .womensGrid .womensGrid__imageContainer {
@@ -754,6 +753,7 @@ footer .footer__copyright {
 @media (min-width: 1000px) {
   .content {
     margin: 100px;
+    margin-top: 0px;
   }
   .content .logo {
     height: 540px;
